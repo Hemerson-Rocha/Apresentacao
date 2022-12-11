@@ -4,7 +4,7 @@ body {
     margin: 0;
     padding: 0;
     font-family: 'Poppins', sans-serif;
-    color: #1e1e2a;
+    color: #ffffff;
 }
 
 /* HEADER */
@@ -12,7 +12,7 @@ body {
 .header-container {
     height: 100vh;
     width: 100vw;
-    background-color: #60E1E0;
+    background-color: #2a2a2a;
     background-image: url('./img/code-simbolo.png');
     background-repeat: no-repeat;
     background-position: center;
@@ -44,9 +44,9 @@ h2 {
 
 .social-media a {
     text-decoration: none;
-    color: #1e1e2a;
+    color: #ffffff;
     padding: 1rem 4rem;
-    border: 1px solid #1e1e2a;
+    border: 1px solid #ffffff;
     min-width: 4rem;
     display: flex;
     align-items: center;
@@ -133,6 +133,7 @@ a:hover{
     align-items: center;
     z-index: 2;
     opacity: 0;
+    background-color: #a9a9a9;
     visibility: hidden;
     transition: 400ms ease-in-out 0s;
 }
@@ -142,6 +143,7 @@ a:hover{
 }
 
 .menu-items ul li a {
+    
     margin: 10px 0;
     color: #1e1e2a;
     text-decoration: none;
@@ -209,23 +211,43 @@ a:hover{
     display: flex;
     align-items: center;
     justify-content: center;
-    background-color: #60E1E0;
-    background-image: url(./img/code-simbolo.png);
+    background-color: #2a2a2a;
+    /* background-image: url(./img/code-simbolo.png); */
     background-position: center;
     background-size: cover;
     background-repeat: no-repeat;
     filter: grayscale(0.5);
-    color: #1e1e2a;
+    color: #ffffff;
     cursor: pointer;
     transition: 0.5s ease-in-out;
 }
 
-.card-text {
-    width: 40%;
-    letter-spacing: 1px;
-    color: rgb(109, 109, 109);
+#img-redonda{
+    width: 300px;
+    height: 300px;
+    border-radius: 100%;
 }
 
+.card-text {
+    width: 40%;
+    /* border: 100% 0; */
+    /* margin-right: 600px; */
+    letter-spacing: 1px;
+    color: rgb(109, 109, 109);
+    font-weight: bold
+}
+
+.card-tech{
+    margin-left: 40%;
+    width: 10%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.card-tech img{
+    width: 50%;
+    margin-left: 30px;
+}
 .card-wrapper {
     text-align: center;
     display: flex;
