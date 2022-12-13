@@ -37,6 +37,10 @@ h2 {
     letter-spacing: 4px;
 }
 
+span {
+    color: aqua;
+}
+
 .social-media {
     margin-top: 1rem;
     display: flex;
